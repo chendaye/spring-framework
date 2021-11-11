@@ -45,6 +45,12 @@ import org.springframework.util.Assert;
  * @author Chris Beams
  * @since 11.12.2003
  * @see BeanDefinitionReaderUtils
+ * todo:  接口可以继承接口，抽象类不可以继承接口，但可以实现接口。
+ * 		  抽象类可以继承实体类,但实体类必须有明确的构造函数
+ * 		  抽象类可以实现(implements)接口，
+ * 		  一个接口可以继承多个接口，一个类可以实现多个接口
+ * 		  一个类只能继承一个类,不能继承多个类；在继承类的同时,也可以继承接口
+ *
  */
 public abstract class AbstractBeanDefinitionReader implements BeanDefinitionReader, EnvironmentCapable {
 

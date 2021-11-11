@@ -39,6 +39,8 @@ public interface ProtocolResolver {
 	 * @param resourceLoader the associated resource loader
 	 * @return a corresponding {@code Resource} handle if the given location
 	 * matches this resolver's protocol, or {@code null} otherwise
+	 *
+	 * todo： 自定义资源加载：没有实现类，需要用户自己继承实现
 	 */
 	@Nullable
 	Resource resolve(String location, ResourceLoader resourceLoader);

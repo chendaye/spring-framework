@@ -31,6 +31,8 @@ import java.io.InputStream;
  * This makes this interface useful as an abstract content source for mail
  * attachments, for example.
  *
+ * todo: 对资源的抽象。它的每一个实现类都代表了一种资源的访问策略，如 ClassPathResource、RLResource、FileSystemResource 等
+ *
  * @author Juergen Hoeller
  * @since 20.01.2004
  * @see java.io.InputStream

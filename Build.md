@@ -2,6 +2,8 @@
 
 [gradle 编译 Spring 源码](https://blog.csdn.net/yy_diego/article/details/116381958)
 
+> `http://svip.iocoder.cn/ ydym233 ydym1024` 源码阅读
+
 # 阿里云仓库
 
 [阿里云](https://developer.aliyun.com/mvn/view)
@@ -14,7 +16,10 @@
 
 ```bash
 git remote -v
-git remote add upstream https://github.com/selfteaching/the-craft-of-selfteaching.git
+git remote add upstream git remote add upstream https://github.com/spring-projects/spring-framework.git
+
+git fetch upstream
+git merge upstream/master
 ```
 
 > 切换代码到需要的分支
